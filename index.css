@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7f8c8d;
+  color: white;
+}
+
+span {
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input {
+  font-size: 2rem;
+  background: none;
+  outline: none;
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+
+h1 {
+  font-size: 10rem;
+  margin: 0;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+h4,
+li {
+  margin: 0px;
+  margin-bottom: 25px;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+li {
+  font-size: 2rem;
+}
+
+a {
+  background: none;
+  outline: none;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+ul {
+  position: relative;
+  right: 35px;
+  list-style: none;
+  align-items: center;
+}
+
+.showing {
+  display: block;
+}
+
+.bgimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
